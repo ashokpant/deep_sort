@@ -4,10 +4,9 @@ import argparse
 import cv2
 import numpy as np
 
-import deep_sort_app
-from deep_sort.iou_matching import iou
-from application_util import visualization
-
+from deep_sort import deep_sort_app
+from deep_sort.deep_sort.iou_matching import iou
+from deep_sort.utils import visualization
 
 DEFAULT_UPDATE_MS = 20
 

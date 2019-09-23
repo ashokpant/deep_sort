@@ -1,7 +1,8 @@
 # vim: expandtab:ts=4:sw=4
 import os
 import argparse
-import show_results
+
+from deep_sort import show_results
 
 
 def convert(filename_in, filename_out, ffmpeg_executable="ffmpeg"):
